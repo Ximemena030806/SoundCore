@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <UseWindowsForms>true</UseWindowsForms>
+    <RootNamespace>SoundCore.UI</RootNamespace>
+    <AssemblyName>SoundCore.UI</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\SoundCore.Modelos\SoundCore.Modelos.csproj" />
+    <ProjectReference Include="..\SoundCore.EstructurasPropias\SoundCore.EstructurasPropias.csproj" />
+  </ItemGroup>
+
+</Project>
